@@ -1,0 +1,47 @@
+body {
+    background: rgb(204, 204, 204);
+}
+
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    text-align: justify;
+    page-break-after: always;
+    color:black;
+}
+
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+    padding: 3cm;
+}
+
+page[size="A4"][layout="landscape"] {
+    width: 29.7cm;
+    height: 21cm;
+}
+
+@media print {
+
+    body,
+    page[size="A4"] {
+        margin: 0;
+        box-shadow: 0;
+    }
+
+    @page {
+        size: auto;
+        margin: 0mm;
+        
+    }
+
+    header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
+        display: none;
+      }
+}

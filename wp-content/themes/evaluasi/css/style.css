@@ -1,0 +1,153 @@
+progress.is-very-small {
+    height: 0.3rem;
+}
+
+canvas {
+    width: 100% !important;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.has-text-kmk-darkblue {
+    color: #014e73;
+}
+
+.has-text-kmk-blue {
+    color: #3ca0e0;
+}
+
+.has-text-kmk-orange {
+    color: #fba511;
+}
+
+.has-text-kmk-yellow {
+    color: #fdcc2c;
+}
+
+.has-background-kmk-darkblue {
+    background-color: #014e73;
+}
+
+.hero.has-background-kmk-blue {
+    background-color: #3ca0e0;
+}
+
+.has-background-kmk-mix {
+    /*
+    background: linear-gradient(130deg, #fdcc2c 60%, #fba511 60%);
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    */
+    background: #fc4a1a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fba511, #fdcc2c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  #fba511, #fdcc2c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.has-background-kmk-orange {
+    background-color: #fba511;
+}
+
+.has-background-kmk-yellow {
+    background-color: #fdcc2c;
+}
+
+hr {
+    border-top: 1px solid darkgray;
+}
+
+.hero .is-corpu {
+    background-color: #fdcc2c;
+}
+
+/* CSS Document */
+
+marquee {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.runtext-container {
+    /*box-shadow:0 2px 5px rgba(0, 0, 0, 0.5);*/
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.main-runtext {
+    margin-top: 10px;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+}
+
+.runtext-container .holder {
+    position: relative;
+    overflow: visible;
+    display: inline;
+    float: left;
+    color: orangered;
+    font-weight: bold;
+}
+
+.runtext-container .holder .text-container {
+    display: inline;
+}
+
+.runtext-container .holder a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.runtext-container .holder a:hover {
+    text-decoration: underline;
+}
+
+tr.pods-field__container {
+    line-height: 40px;
+    padding-left: 50;
+}
+
+td {
+    padding-left: 10px;
+}
+
+tr.lightRed {
+    background-color: #f0aaaa;
+}
+
+.toolbar {
+    float: left;
+}
+
+select.pods-form-ui-field {
+    line-height: 50px;
+}
+
+.bread-wrap a {
+    color: white;
+}
+
+.bread-wrap a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.is-title-bar {
+    color: white;
+    font-size: 13pt;
+    line-height: 20px;
+}
+/*
+.pods-field-wrapper {
+    line-height: 20px;
+}
+*/
